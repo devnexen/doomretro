@@ -78,7 +78,7 @@
 #include <errno.h>
 #include <libgen.h>
 #include <unistd.h>
-#elif defined(__linux__) || defined(__HAIKU__)
+#elif defined(__linux__) || defined(__HAIKU__) || defined(__redox__)
 #include <dirent.h>
 #include <errno.h>
 #include <libgen.h>
